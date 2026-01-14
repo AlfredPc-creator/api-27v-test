@@ -45,8 +45,7 @@ async def create_one_post_json_data(post: PostBase, db=Depends(get_db)):
         "content": created_post["content"],
         "created": created_post["created"].isoformat(),
     }
-class object(Objetct)
-aasd jaaaaaa prueba
+
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
